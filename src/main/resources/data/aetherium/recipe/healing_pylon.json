@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": { "item": "aetherium:aetherium_ingot" },
+    "G": { "item": "minecraft:golden_apple" },
+    "Q": { "item": "minecraft:quartz_block" }
+  },
+  "pattern": [
+    "QAQ",
+    "AGA",
+    "QAQ"
+  ],
+  "result": { "count": 1, "id": "aetherium:healing_pylon" }
+}

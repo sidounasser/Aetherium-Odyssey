@@ -1,0 +1,19 @@
+﻿{
+  "parent": "aetherium:aether_altar",
+  "display": {
+    "icon": { "id": "aetherium:celestial_halberd" },
+    "title": { "translate": "advancement.aetherium.celestial_halberd.title" },
+    "description": { "translate": "advancement.aetherium.celestial_halberd.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_halberd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": [ "aetherium:celestial_halberd" ] } ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "aetherium:aetherium_ingot" },
+    "F": { "item": "minecraft:feather" },
+    "R": { "item": "aetherium:rune_of_storms" }
+  },
+  "pattern": [
+    "FAF",
+    "ARA",
+    "FAF"
+  ],
+  "result": { "count": 1, "id": "aetherium:wind_talisman" }
+}

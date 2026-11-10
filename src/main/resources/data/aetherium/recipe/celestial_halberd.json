@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "C": { "item": "aetherium:celestial_core" },
+    "A": { "item": "aetherium:aetherium_sword" },
+    "P": { "item": "aetherium:pyrosite_greatsword" },
+    "V": { "item": "aetherium:void_scythe" },
+    "B": { "item": "aetherium:aetherium_block" }
+  },
+  "pattern": [
+    "ACA",
+    "PVB",
+    " B "
+  ],
+  "result": { "count": 1, "id": "aetherium:celestial_halberd" }
+}

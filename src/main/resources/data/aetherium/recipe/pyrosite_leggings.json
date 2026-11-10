@@ -1,0 +1,7 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": { "P": { "item": "aetherium:pyrosite_ingot" } },
+  "pattern": [ "PPP", "P P", "P P" ],
+  "result": { "count": 1, "id": "aetherium:pyrosite_leggings" }
+}

@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "aetherium",
+	"version": "${version}",
+	"name": "Aetherium Odyssey",
+	"description": "Un mod RPG, Magie, Exploration et Boss ultra complet : nouveaux minerais (Aetherium, Pyrosite, Néantite), armes légendaires à capacités actives, bâtons élémentaires, reliques passives, armure céleste à bonus de panoplie, blocs fonctionnels (Autel d'Ascension, Pylône de Régénération, Ascenseur Téléporteur) et le Boss L'Archonte d'Aetherium !",
+	"authors": [
+		"Sidou & Antigravity"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "MIT",
+	"icon": "assets/aetherium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aetherium.AetheriumOdyssey"
+		],
+		"client": [
+			"com.aetherium.AetheriumOdysseyClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

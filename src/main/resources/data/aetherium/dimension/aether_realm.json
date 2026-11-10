@@ -1,0 +1,16 @@
+﻿{
+  "type": "aetherium:aether_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:floating_islands",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "scale": 3,
+      "biomes": [
+        "minecraft:meadow",
+        "minecraft:cherry_grove",
+        "minecraft:jagged_peaks"
+      ]
+    }
+  }
+}

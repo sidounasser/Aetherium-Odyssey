@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "aetherium:aetherium_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "L": { "item": "minecraft:lapis_lazuli" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "pattern": [
+    "R L",
+    "I I",
+    "IAI"
+  ],
+  "result": { "count": 1, "id": "aetherium:magnet_charm" }
+}

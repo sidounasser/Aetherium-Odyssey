@@ -1,0 +1,14 @@
+﻿{
+  "replace": false,
+  "values": [
+    "aetherium:aetherium_ore",
+    "aetherium:deepslate_aetherium_ore",
+    "aetherium:pyrosite_ore",
+    "aetherium:voidite_ore",
+    "aetherium:raw_aetherium_block",
+    "aetherium:aetherium_block",
+    "aetherium:pyrosite_block",
+    "aetherium:voidite_block",
+    "aetherium:aether_altar"
+  ]
+}

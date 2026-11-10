@@ -1,0 +1,27 @@
+﻿{
+  "display": {
+    "icon": { "id": "aetherium:aetherium_ingot" },
+    "title": { "translate": "advancement.aetherium.root.title" },
+    "description": { "translate": "advancement.aetherium.root.description" },
+    "background": "aetherium:textures/block/aetherium_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_aetherium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aetherium:raw_aetherium",
+              "aetherium:aetherium_shard",
+              "aetherium:aetherium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

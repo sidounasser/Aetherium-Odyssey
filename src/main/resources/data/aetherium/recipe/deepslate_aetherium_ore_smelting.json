@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.5,
+  "ingredient": { "item": "aetherium:deepslate_aetherium_ore" },
+  "result": { "id": "aetherium:aetherium_ingot" }
+}

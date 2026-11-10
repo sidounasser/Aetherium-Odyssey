@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": { "item": "aetherium:aetherium_shard" },
+    "P": { "item": "minecraft:paper" },
+    "G": { "item": "minecraft:gold_ingot" }
+  },
+  "pattern": [
+    "GAG",
+    "PPP",
+    "GAG"
+  ],
+  "result": { "count": 1, "id": "aetherium:shrine_scroll" }
+}

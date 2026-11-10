@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.5,
+  "ingredient": { "item": "aetherium:voidite_ore" },
+  "result": { "id": "aetherium:voidite_ingot" }
+}

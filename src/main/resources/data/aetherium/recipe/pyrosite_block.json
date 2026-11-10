@@ -1,0 +1,7 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": { "#": { "item": "aetherium:pyrosite_ingot" } },
+  "pattern": [ "###", "###", "###" ],
+  "result": { "count": 1, "id": "aetherium:pyrosite_block" }
+}

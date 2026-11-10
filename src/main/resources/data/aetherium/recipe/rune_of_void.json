@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": { "item": "aetherium:voidite_ingot" },
+    "E": { "item": "minecraft:ender_pearl" },
+    "O": { "item": "minecraft:obsidian" }
+  },
+  "pattern": [
+    "OEO",
+    "EVE",
+    "OEO"
+  ],
+  "result": { "count": 1, "id": "aetherium:rune_of_void" }
+}

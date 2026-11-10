@@ -1,0 +1,7 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": { "V": { "item": "aetherium:voidite_ingot" } },
+  "pattern": [ "V V", "VVV", "VVV" ],
+  "result": { "count": 1, "id": "aetherium:voidite_chestplate" }
+}

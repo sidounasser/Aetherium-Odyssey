@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "R": { "item": "aetherium:rune_of_flames" },
+    "P": { "item": "aetherium:pyrosite_ingot" },
+    "B": { "item": "minecraft:blaze_rod" }
+  },
+  "pattern": [
+    " PR",
+    " BP",
+    "B  "
+  ],
+  "result": { "count": 1, "id": "aetherium:staff_of_meteors" }
+}

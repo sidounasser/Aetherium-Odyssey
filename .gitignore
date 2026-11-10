@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+
+# Built artifacts
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Run directories & logs
+run/
+runs/
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": { "#": { "item": "aetherium:voidite_ingot" } },
+  "pattern": [ "###", "###", "###" ],
+  "result": { "count": 1, "id": "aetherium:voidite_block" }
+}

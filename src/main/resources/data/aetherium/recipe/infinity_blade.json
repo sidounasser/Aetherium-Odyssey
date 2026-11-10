@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "E": { "item": "aetherium:primordial_void_essence" },
+    "H": { "item": "aetherium:celestial_halberd" },
+    "C": { "item": "aetherium:celestial_core" },
+    "V": { "item": "aetherium:voidite_block" }
+  },
+  "pattern": [
+    " E ",
+    "CHC",
+    " V "
+  ],
+  "result": { "count": 1, "id": "aetherium:infinity_blade" }
+}

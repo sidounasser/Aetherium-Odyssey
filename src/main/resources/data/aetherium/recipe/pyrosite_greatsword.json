@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "P": { "item": "aetherium:pyrosite_ingot" },
+    "R": { "item": "aetherium:rune_of_flames" },
+    "B": { "item": "minecraft:blaze_rod" }
+  },
+  "pattern": [
+    " P ",
+    "PRP",
+    " B "
+  ],
+  "result": { "count": 1, "id": "aetherium:pyrosite_greatsword" }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "A": { "item": "aetherium:aetherium_ingot" },
+    "S": { "item": "minecraft:blaze_rod" }
+  },
+  "pattern": [
+    "A",
+    "A",
+    "S"
+  ],
+  "result": { "count": 1, "id": "aetherium:aetherium_sword" }
+}

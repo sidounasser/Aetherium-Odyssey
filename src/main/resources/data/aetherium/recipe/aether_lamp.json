@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": { "item": "aetherium:aetherium_shard" },
+    "G": { "item": "minecraft:glowstone" },
+    "I": { "item": "minecraft:iron_nugget" }
+  },
+  "pattern": [
+    "ISI",
+    "SGS",
+    "ISI"
+  ],
+  "result": { "count": 4, "id": "aetherium:aether_lamp" }
+}

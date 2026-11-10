@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": { "item": "aetherium:voidite_ingot" },
+    "C": { "item": "aetherium:celestial_core" },
+    "R": { "item": "aetherium:rune_of_void" }
+  },
+  "pattern": [
+    "VRV",
+    "RCR",
+    "VRV"
+  ],
+  "result": { "count": 1, "id": "aetherium:primordial_void_essence" }
+}

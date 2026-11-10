@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": { "item": "aetherium:aetherium_ingot" },
+    "P": { "item": "aetherium:pyrosite_ingot" },
+    "V": { "item": "aetherium:voidite_ingot" },
+    "D": { "item": "minecraft:diamond" },
+    "E": { "item": "minecraft:ender_eye" }
+  },
+  "pattern": [
+    "DAD",
+    "PEV",
+    "DAD"
+  ],
+  "result": { "count": 1, "id": "aetherium:archon_summoner" }
+}

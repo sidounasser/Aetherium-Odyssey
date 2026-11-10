@@ -1,0 +1,19 @@
+﻿{
+  "parent": "aetherium:aetherium_ingot",
+  "display": {
+    "icon": { "id": "aetherium:aether_altar" },
+    "title": { "translate": "advancement.aetherium.aether_altar.title" },
+    "description": { "translate": "advancement.aetherium.aether_altar.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_altar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": [ "aetherium:aether_altar" ] } ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.5,
+  "ingredient": { "item": "aetherium:voidite_gem" },
+  "result": { "id": "aetherium:voidite_ingot" }
+}

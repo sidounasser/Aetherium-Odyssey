@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "A": { "item": "aetherium:aetherium_ingot" },
+    "R": { "item": "aetherium:rune_of_storms" },
+    "S": { "item": "minecraft:string" }
+  },
+  "pattern": [
+    " AS",
+    "R S",
+    " AS"
+  ],
+  "result": { "count": 1, "id": "aetherium:starlight_bow" }
+}

@@ -1,0 +1,4 @@
+﻿{
+  "parent": "minecraft:item/handheld",
+  "textures": { "layer0": "aetherium:item/starlight_bow" }
+}

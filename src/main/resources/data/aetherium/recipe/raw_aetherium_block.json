@@ -1,0 +1,7 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": { "#": { "item": "aetherium:raw_aetherium" } },
+  "pattern": [ "###", "###", "###" ],
+  "result": { "count": 1, "id": "aetherium:raw_aetherium_block" }
+}
