@@ -1,0 +1,21 @@
+# Set default behavior
+* text=auto
+
+# Text files
+*.java text diff=java
+*.json text
+*.md text
+*.properties text
+*.gradle text
+*.ps1 text
+
+# Bash scripts must have LF
+gradlew text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binaries
+*.png binary
+*.jar binary

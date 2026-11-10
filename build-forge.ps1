@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
-$jdk = "C:\Users\sidou\.jdks\jdk-21.0.13+9\bin"
+$jdk = if ($env:JAVA_HOME) { "$env:JAVA_HOME\bin" } else { "C:\Users\sidou\.jdks\jdk-21.0.13+9\bin" }
 $lib = "$env:APPDATA\.minecraft\libraries"
-$proj = "c:\Users\sidou\Desktop\Ai Project"
+$proj = if ($PSScriptRoot) { $PSScriptRoot } else { (Get-Location).Path }
 $out = "$proj\build\forge"
 
 Remove-Item -Recurse -Force $out -ErrorAction SilentlyContinue

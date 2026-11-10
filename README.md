@@ -1,11 +1,44 @@
-# 🌌 Aetherium Odyssey — Mod Minecraft (Fabric 1.21.1)
+# 🌌 Aetherium Odyssey — Mod Minecraft (Fabric & Forge 1.21.1)
 
-**Aetherium Odyssey** est un mod RPG, Magie, Exploration et Boss ultra complet pour **Minecraft 1.21.1 (Fabric)**.
+[![GitHub Release](https://img.shields.io/github/v/release/sidounasser/Aetherium-Odyssey?include_prereleases&style=flat-square)](https://github.com/sidounasser/Aetherium-Odyssey/releases)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-blue?style=flat-square)](https://www.minecraft.net/)
+[![Fabric](https://img.shields.io/badge/Loader-Fabric%20%2F%20Forge-orange?style=flat-square)](https://fabricmc.net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-## 📦 Installation rapide
-1. Installe **Fabric Loader** pour **Minecraft 1.21.1** et place le mod **Fabric API** dans ton dossier `.minecraft/mods`.
-2. Copie le fichier compilé **`aetherium-odyssey-1.0.0.jar`** (situé à la racine de ce dossier ou dans `build/libs/aetherium-odyssey-1.0.0.jar`) dans ton dossier `.minecraft/mods`.
-3. Lance le jeu ! Toutes les traductions françaises (`fr_fr`) et anglaises (`en_us`) sont incluses.
+**Aetherium Odyssey** est un mod RPG, Magie, Exploration et Boss ultra complet pour **Minecraft 1.21.1 (Fabric & Forge)**.
+
+## 📦 Téléchargement & Installation
+
+Les versions précompilées finales sont disponibles directement dans la section **[Releases GitHub](https://github.com/sidounasser/Aetherium-Odyssey/releases)** :
+
+### Pour Fabric (Recommandé) :
+1. Télécharge **`aetherium-odyssey-1.0.0.jar`** depuis les [Releases](https://github.com/sidounasser/Aetherium-Odyssey/releases).
+2. Installe **Fabric Loader** pour Minecraft 1.21.1 et ajoute **Fabric API** dans ton dossier `.minecraft/mods`.
+3. Place **`aetherium-odyssey-1.0.0.jar`** dans `.minecraft/mods`.
+
+### Pour Forge :
+1. Télécharge **`aetherium-odyssey-forge-1.21.1-3.0.0.jar`** depuis les [Releases](https://github.com/sidounasser/Aetherium-Odyssey/releases).
+2. Installe **Minecraft Forge 1.21.1** (version 52.1+).
+3. Place le fichier jar dans ton dossier `.minecraft/mods`.
+
+## 🛠️ Compilation depuis les sources
+
+### Compiler la version Fabric :
+Nécessite JDK 21 installé.
+```bash
+# Windows
+.\gradlew build
+
+# Linux / macOS
+./gradlew build
+```
+Le fichier JAR généré se trouvera dans `build/libs/aetherium-odyssey-1.0.0.jar`.
+
+### Compiler la version Forge :
+```powershell
+.\build-forge.ps1
+```
+Le fichier JAR généré se trouvera dans `build/forge/jar/aetherium-odyssey-forge-1.21.1-3.0.0.jar`.
 
 ## ✨ Contenu du Mod
 - **3 Nouveaux Minerais multi-dimensionnels** :

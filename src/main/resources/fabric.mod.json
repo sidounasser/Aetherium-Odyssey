@@ -8,7 +8,8 @@
 		"Sidou & Antigravity"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/"
+		"homepage": "https://github.com/sidounasser/Aetherium-Odyssey",
+		"sources": "https://github.com/sidounasser/Aetherium-Odyssey"
 	},
 	"license": "MIT",
 	"icon": "assets/aetherium/icon.png",
